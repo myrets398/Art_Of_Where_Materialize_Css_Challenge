@@ -1,0 +1,23 @@
+body{
+  background-color: #fff;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+.header{
+  font-family: Helvetica, Verdana, Arial, monospace;
+  text-align: center;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 12px solid #e6f6d6;
+  padding: 30px;
+flex-wrap: wrap;
+}
+.image0, .image1, .image2, .image3, .image4{
+  background-position: 5px 40px 60px 35px;
+  max-width: 800px;
+  max-height: 545px;
+  float: inherit;
+  flex-wrap:wrap-reverse;
+box-shadow: 0 0 10px 9px;
+display:inline-block;
+}
